@@ -7,7 +7,7 @@ module.exports = {
     entry: SRC_DIR + "/index.js",
     output: {
         path: path.resolve(__dirname, '../'),
-        filename: "dist/react-examples.js"
+        filename: "dist/react-trader.js"
     },
     module: {
         rules: [

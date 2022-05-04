@@ -1,6 +1,6 @@
 const path = require('path');
 
-const SRC_DIR = path.resolve(__dirname, '../src-examples');
+const SRC_DIR = path.resolve(__dirname, '../src');
 
 module.exports = {
     mode: 'development',
@@ -47,8 +47,8 @@ module.exports = {
     },
     devtool: 'inline-source-map',
     devServer: {
-        public: 'http://localhost:8080',
-        port: 8080,
+        public: 'http://localhost:8081',
+        port: 8081,
         historyApiFallback: true
     }
 };
